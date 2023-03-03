@@ -74,7 +74,7 @@ class Game{
                 
                 if(player.score>=5){
                     player.rank += 1;
-                    updatePlayerAtEnd(player.rank);
+                    Player.updateAtEnd(player.rank);
 
                   
                     player.update();
